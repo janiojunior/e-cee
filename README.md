@@ -62,8 +62,6 @@ A estrutura está organizada em camadas bem definidas, seguindo os princípios d
 
 - **`mapper`**: Contém os mapeadores responsáveis por converter objetos entre as diferentes camadas. Exemplo: `TipoDocumentoEntityMapper`, que mapeia entre a entidade `TipoDocumento` e o DTO correspondente.
   
-- **`model`**: Define os modelos utilizados na aplicação. Esses modelos são geralmente objetos de transporte de dados entre as camadas (DTOs ou modelos simplificados).
-  
 - **`service`**: Contém as interfaces dos serviços da aplicação. Por exemplo, `TipoDocumentoService` define os métodos para manipulação de tipos de documentos, mas não implementa a lógica.
   
 - **`usecase`**: Implementa os casos de uso do sistema, ou seja, a lógica de negócio central. Cada classe dentro deste pacote representa um cenário específico de operação no sistema, como `CreateOrUpdateTipoDocumentoUseCase` (criação/atualização), `DeleteTipoDocumentoUseCase` (remoção), entre outros.
