@@ -1,4 +1,4 @@
-package br.gov.to.cee.ecee.infrastructure.entity;
+package br.gov.to.cee.ecee.infrastructure.tipodocumento.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

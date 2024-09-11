@@ -1,4 +1,4 @@
-package br.gov.to.cee.ecee.infrastructure.dto;
+package br.gov.to.cee.ecee.infrastructure.tipodocumento.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

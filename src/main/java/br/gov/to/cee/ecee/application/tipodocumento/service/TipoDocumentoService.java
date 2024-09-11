@@ -1,7 +1,8 @@
-package br.gov.to.cee.ecee.application.service;
+package br.gov.to.cee.ecee.application.tipodocumento.service;
 
-import br.gov.to.cee.ecee.domain.model.TipoDocumento;
 import java.util.List;
+
+import br.gov.to.cee.ecee.domain.tipodocumento.model.TipoDocumento;
 
 public interface TipoDocumentoService {
     List<TipoDocumento> getAllTipoDocumento();

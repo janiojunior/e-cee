@@ -1,7 +1,8 @@
-package br.gov.to.cee.ecee.domain.repository;
+package br.gov.to.cee.ecee.domain.tipodocumento.repository;
 
-import br.gov.to.cee.ecee.domain.model.TipoDocumento;
 import java.util.List;
+
+import br.gov.to.cee.ecee.domain.tipodocumento.model.TipoDocumento;
 
 public interface TipoDocumentoRepository {
     List<TipoDocumento> findAll();

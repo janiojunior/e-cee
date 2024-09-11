@@ -1,4 +1,4 @@
-package br.gov.to.cee.ecee.domain.model;
+package br.gov.to.cee.ecee.domain.tipodocumento.model;
 
 public class TipoDocumento {
     private Long id;

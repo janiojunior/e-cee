@@ -1,7 +1,7 @@
-package br.gov.to.cee.ecee.application.mapper;
+package br.gov.to.cee.ecee.application.tipodocumento.mapper;
 
-import br.gov.to.cee.ecee.domain.model.TipoDocumento;
-import br.gov.to.cee.ecee.infrastructure.entity.TipoDocumentoEntity;
+import br.gov.to.cee.ecee.domain.tipodocumento.model.TipoDocumento;
+import br.gov.to.cee.ecee.infrastructure.tipodocumento.entity.TipoDocumentoEntity;
 import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped

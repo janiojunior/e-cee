@@ -1,12 +1,12 @@
-package br.gov.to.cee.ecee.infrastructure.repository;
+package br.gov.to.cee.ecee.infrastructure.tipodocumento.repository;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import br.gov.to.cee.ecee.application.mapper.TipoDocumentoEntityMapper;
-import br.gov.to.cee.ecee.domain.model.TipoDocumento;
-import br.gov.to.cee.ecee.domain.repository.TipoDocumentoRepository;
-import br.gov.to.cee.ecee.infrastructure.entity.TipoDocumentoEntity;
+import br.gov.to.cee.ecee.application.tipodocumento.mapper.TipoDocumentoEntityMapper;
+import br.gov.to.cee.ecee.domain.tipodocumento.model.TipoDocumento;
+import br.gov.to.cee.ecee.domain.tipodocumento.repository.TipoDocumentoRepository;
+import br.gov.to.cee.ecee.infrastructure.tipodocumento.entity.TipoDocumentoEntity;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.persistence.EntityManager;

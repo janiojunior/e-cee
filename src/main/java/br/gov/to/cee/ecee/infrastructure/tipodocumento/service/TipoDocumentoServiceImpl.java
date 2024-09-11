@@ -1,14 +1,13 @@
-package br.gov.to.cee.ecee.infrastructure.service;
+package br.gov.to.cee.ecee.infrastructure.tipodocumento.service;
 
 import java.util.List;
 
-
-import br.gov.to.cee.ecee.application.service.TipoDocumentoService;
-import br.gov.to.cee.ecee.application.usecase.tipodocumento.CreateOrUpdateTipoDocumentoUseCase;
-import br.gov.to.cee.ecee.application.usecase.tipodocumento.DeleteTipoDocumentoUseCase;
-import br.gov.to.cee.ecee.application.usecase.tipodocumento.GetAllTipoDocumentoUseCase;
-import br.gov.to.cee.ecee.application.usecase.tipodocumento.GetTipoDocumentoByIdUseCase;
-import br.gov.to.cee.ecee.domain.model.TipoDocumento;
+import br.gov.to.cee.ecee.application.tipodocumento.service.TipoDocumentoService;
+import br.gov.to.cee.ecee.application.tipodocumento.usecase.CreateOrUpdateTipoDocumentoUseCase;
+import br.gov.to.cee.ecee.application.tipodocumento.usecase.DeleteTipoDocumentoUseCase;
+import br.gov.to.cee.ecee.application.tipodocumento.usecase.GetAllTipoDocumentoUseCase;
+import br.gov.to.cee.ecee.application.tipodocumento.usecase.GetTipoDocumentoByIdUseCase;
+import br.gov.to.cee.ecee.domain.tipodocumento.model.TipoDocumento;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import jakarta.transaction.Transactional;

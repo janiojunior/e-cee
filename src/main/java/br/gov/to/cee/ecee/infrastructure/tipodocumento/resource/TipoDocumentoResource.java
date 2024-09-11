@@ -1,12 +1,12 @@
-package br.gov.to.cee.ecee.infrastructure.resource;
+package br.gov.to.cee.ecee.infrastructure.tipodocumento.resource;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import br.gov.to.cee.ecee.application.mapper.TipoDocumentoMapper;
-import br.gov.to.cee.ecee.application.service.TipoDocumentoService;
-import br.gov.to.cee.ecee.domain.model.TipoDocumento;
-import br.gov.to.cee.ecee.infrastructure.dto.TipoDocumentoDTO;
+import br.gov.to.cee.ecee.application.tipodocumento.mapper.TipoDocumentoMapper;
+import br.gov.to.cee.ecee.application.tipodocumento.service.TipoDocumentoService;
+import br.gov.to.cee.ecee.domain.tipodocumento.model.TipoDocumento;
+import br.gov.to.cee.ecee.infrastructure.tipodocumento.dto.TipoDocumentoDTO;
 import jakarta.inject.Inject;
 import jakarta.validation.Valid;
 import jakarta.ws.rs.Consumes;
